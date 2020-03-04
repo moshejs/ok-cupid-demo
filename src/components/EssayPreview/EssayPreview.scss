@@ -1,0 +1,15 @@
+@import '../../../variables';
+
+.EssayPreview {
+  &__Container {
+    flex: 50%;
+    background: $right-container-bg-color;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__Sentences {
+    margin-top: 30px;
+    margin-bottom: 130px;
+  }
+}

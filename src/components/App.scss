@@ -1,0 +1,45 @@
+@import "../../variables";
+
+body {
+  background: $background-color;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.matchArea {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  @media screen and (min-width: 769px) {
+    flex-direction: row;
+    justify-content: center;
+    position: fixed;
+    top: 45px;
+    bottom: 45px;
+    left: 50px;
+    right: 50px;
+  }
+
+  background: $left-container-bg-color;
+  color: $text-color;
+  border-radius: 4px;
+  min-width: 500px;
+
+  > * {
+    border-radius: 5px;
+    padding: 40px;
+    padding-top: 35px;
+
+    h1 {
+      font-size: 1.4em;
+      font-weight: 500;
+      margin: 0;
+    }
+  }
+}
+
+input,
+textarea {
+  color: $text-color;
+}

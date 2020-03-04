@@ -1,0 +1,19 @@
+@import "../../../variables";
+
+button {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  font-size: 0.8em;
+  color: #ffffff;
+  background: $button-color;
+
+  width: 140px;
+  height: 50px;
+
+  border-radius: 6px;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
